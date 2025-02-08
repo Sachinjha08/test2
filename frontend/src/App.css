@@ -1,0 +1,95 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* User List */
+.listContainer h2{
+  margin-top: 20px;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.filter-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Status Filter */
+.status-filter {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.status-filter select {
+  padding: 8px;
+}
